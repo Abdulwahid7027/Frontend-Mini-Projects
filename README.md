@@ -9,6 +9,7 @@ Welcome to the Frontend-Mini-Projects Repository! This repository contains a col
 ### [Loading Bar](https://abdulwahid7027.github.io/Frontend-Mini-Projects/Loading%20Bar/index.html)
 
 ### [RGB Color Generator](https://abdulwahid7027.github.io/Frontend-Mini-Projects/RGB%20Color%20Generator/index.html)
+### [Dark Mode Js](https://abdulwahid7027.github.io/Frontend-Mini-Projects/Dark%20mode%20js/index.html)
 
 ## Table of Contents
 - [Getting Started](#getting-started)
