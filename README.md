@@ -13,6 +13,8 @@ Welcome to the Frontend-Mini-Projects Repository! This repository contains a col
 
 ### [Custom Button](https://abdulwahid7027.github.io/Frontend-Mini-Projects/Custom%20Button/index.html)
 
+### [Qr Code Generator](https://abdulwahid7027.github.io/Frontend-Mini-Projects/QR%20Code%20Generator/index.html)
+
 ## Table of Contents
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
