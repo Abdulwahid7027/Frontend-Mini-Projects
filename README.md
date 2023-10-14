@@ -11,6 +11,8 @@ Welcome to the Frontend-Mini-Projects Repository! This repository contains a col
 ### [RGB Color Generator](https://abdulwahid7027.github.io/Frontend-Mini-Projects/RGB%20Color%20Generator/index.html)
 ### [Dark Mode Js](https://abdulwahid7027.github.io/Frontend-Mini-Projects/Dark%20mode%20js/index.html)
 
+### [Custom Button](https://abdulwahid7027.github.io/Frontend-Mini-Projects/Custom%20Button/index.html)
+
 ## Table of Contents
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
