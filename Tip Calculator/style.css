@@ -1,46 +1,120 @@
 * {
     box-sizing: border-box;
 }
+
 body {
-    background-color: #f2f2f2;
-    font-family: "Helvetica",sans-serif;
+    background-color: #061b2c;
+    color: aliceblue;
+    font-family: 'Source Code Pro', monospace;
 }
+
 .container {
-    background-color: white;
+    background-color: #1d3849;
     max-width: 600px;
     margin: 100px auto;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
     border-radius: 10px;
 }
+
 h1 {
     margin-top: 0px;
     text-align: center;
+    font-family: 'Archivo Black', sans-serif;
+
+    font-size: 50px;
 }
+
 input {
+    background-color: #a2bbcf;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #9db6ba;
     border-radius: 4px;
     margin: 10px 0;
     width: 100%;
 }
+
 button {
-    background-color: #4caf50;
+    background-color: #205b7a;
     color: white;
     padding: 10px;
     border: none;
     cursor: pointer;
     margin: 10px 0;
-    width:100%;
+    width: 100%;
     font-size: 18px;
     text-transform: uppercase;
     transition: background-color .2 ease;
 }
-button:hover{
-    background-color: #45a049;
+
+.buttonn {
+    --c: #a2bbcf;
+    color: var(--c);
+    font-size: 18px;
+    border: 0.3em solid var(--c);
+    border-radius: 0.5em;
+    width: 12em;
+    height: 3em;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: 0.5s;
+    margin: 10px 0;
+    width: 100%;
+    padding: 10px;
 }
+
+.buttonn span {
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    background-color: var(--c);
+    transform: translateY(150%);
+    border-radius: 50%;
+    left: calc((var(--n) - 1) * 25%);
+    transition: 0.5s;
+    transition-delay: calc((var(--n) - 1) * 0.1s);
+    z-index: -1;
+}
+
+.buttonn:hover {
+    color: black;
+}
+
+.buttonn:hover span {
+    transform: translateY(0) scale(2);
+}
+
+.buttonn span:nth-child(1) {
+    --n: 1;
+}
+
+.buttonn span:nth-child(2) {
+    --n: 2;
+}
+
+.buttonn span:nth-child(3) {
+    --n: 3;
+}
+
+.buttonn span:nth-child(4) {
+    --n: 4;
+}
+
 #total {
     font-size: 24px;
     font-weight: bold;
     margin: 10px;
+}
+
+.tip_amount {
+    padding: 1vh;
+}
+
+.total {
+    padding: 1vh;
 }
