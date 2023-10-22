@@ -1,46 +1,98 @@
 * {
-    box-sizing: border-box;
+  font-family: 'M PLUS Rounded 1c', Avenir Next, Helvetica, sans-serif;
+  color: white;
 }
+
 body {
-    background-color: #f2f2f2;
-    font-family: "Helvetica",sans-serif;
+  background: #8990ec;
 }
+
+.wrapper {
+  height: 525px;
+  width: 360px;
+  color: white;
+  background: #272639;
+  border-radius: 1rem;
+  padding: 1.2rem;
+  margin: 100px auto;
+}
+
+#topContainer {
+  margin-top: 4rem;
+}
+
 .container {
-    background-color: white;
-    max-width: 600px;
-    margin: 100px auto;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
-    border-radius: 10px;
+  margin-top: 1.4rem;
 }
-h1 {
-    margin-top: 0px;
-    text-align: center;
+
+.title {
+  font-weight: bold;
+  margin-bottom: 0.6rem;
 }
-input {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    margin: 10px 0;
-    width: 100%;
+
+.inputContainer {
+  background: #353959;
+  border-radius: 1.4rem;
+  padding: 0 0.8rem;
+  display: flex;
+  align-items: center;
 }
-button {
-    background-color: #4caf50;
-    color: white;
-    padding: 10px;
-    border: none;
-    cursor: pointer;
-    margin: 10px 0;
-    width:100%;
-    font-size: 18px;
-    text-transform: uppercase;
-    transition: background-color .2 ease;
+
+#billTotalInput,
+#tipInput {
+  font-size: 1.2rem;
+  background: none;
+  border: none;
+  outline: none;
+  padding: none;
 }
-button:hover{
-    background-color: #45a049;
+
+.buttonContainer {
+  background: #8990ec;
+  display: grid;
+  place-items: center;
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 50%;
 }
-#total {
-    font-size: 24px;
-    font-weight: bold;
-    margin: 10px;
+
+.splitButton {
+  background: none;
+  border: none;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+}
+
+.splitButton {
+  font-size: 0.8rem;
+  font-weight: bold;
+  display: grid;
+  place-items: center;
+}
+
+.buttonText {
+  color: #353959 !important;
+}
+
+.splitAmount {
+  font-size: 1.6rem;
+  margin: 0.8rem;
+}
+
+#bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.totalContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.total {
+  font-size: 2rem;
 }
